@@ -1,11 +1,22 @@
 {
   
+    
+        "post0": {
+            "title": "Unit 3 Sections 9 and 11",
+            "content": "3.9 Video 1 . Essential Knowledge . Algorithms can be written in different ways and still accomplish the same tasks | Algorithms that appear similar can yield different side effects or results | Some conditional statements can be written as equivalent Boolean expressions | Some Boolean expressions can be written as equivalent conditional statements | Different algorithms can be developed or used to solve the same problem | . Dice Game . Do these two algorithms give the same results? . IF (diceRoll≥4) { DISPLAY (&quot;Great Job!&quot;) } { ELSE } IF (diceRoll=3) .",
+            "url": "https://trentcardall.github.io/period4yeung/fastpages/jupyter/2022/11/30/lesson.html",
+            "relUrl": "/fastpages/jupyter/2022/11/30/lesson.html",
+            "date": " • Nov 30, 2022"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://trentcardall.github.io/period4yeung/about/",
