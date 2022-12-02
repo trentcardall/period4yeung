@@ -134,6 +134,8 @@ window.onload = wrap_img;
 <ul>
 <li class="toc-entry toc-h3"><a href="#Essential-Knowledge">Essential Knowledge </a></li>
 <li class="toc-entry toc-h3"><a href="#Dice-Game">Dice Game </a></li>
+<li class="toc-entry toc-h3"><a href="#Can-we-adjust-the-second-algorithm-to-yield-the-same-results?">Can we adjust the second algorithm to yield the same results? </a></li>
+<li class="toc-entry toc-h3"><a href="#Conditional-vs-Boolean">Conditional vs Boolean </a></li>
 </ul>
 </li>
 </ul><!--
@@ -165,14 +167,136 @@ window.onload = wrap_img;
 <a class="anchor" href="#Dice-Game" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dice Game<a class="anchor-link" href="#Dice-Game"> </a>
 </h3>
 <p>Do these two algorithms give the same results?</p>
-<p>IF (diceRoll≥4)<br>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"What did you roll on the dice?"</span><span class="p">)</span>
+<span class="n">diceRoll</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="k">if</span> <span class="n">diceRoll</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Nice roll!"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">diceRoll</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Meh... You can do better"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"That was not a great roll!"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"What did you roll on the dice?"</span><span class="p">)</span>
+<span class="n">diceRoll</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="k">if</span> <span class="n">diceRoll</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Nice roll!"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">diceRoll</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Meh... You can do better"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">diceRoll</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"That was not a great roll!"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>In what instances do the algorithms yield different results for the same input?</li>
+<li>Why does this happen?</li>
+</ul>
+<h3 id="Can-we-adjust-the-second-algorithm-to-yield-the-same-results?">
+<a class="anchor" href="#Can-we-adjust-the-second-algorithm-to-yield-the-same-results?" aria-hidden="true"><span class="octicon octicon-link"></span></a>Can we adjust the second algorithm to yield the same results?<a class="anchor-link" href="#Can-we-adjust-the-second-algorithm-to-yield-the-same-results?"> </a>
+</h3>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"What did you roll on the dice?"</span><span class="p">)</span>
+<span class="n">diceRoll</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+<span class="k">if</span> <span class="n">diceRoll</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Nice roll!"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">diceRoll</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">diceRoll</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Meh... You can do better"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">diceRoll</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"That was not a great roll!"</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What can be taken away from this?</strong></p>
+<ul>
+<li>Small changes/mistakes can have a big impact on the result</li>
+<li>There is often more than one way to achieve the same result</li>
+</ul>
+<h3 id="Conditional-vs-Boolean">
+<a class="anchor" href="#Conditional-vs-Boolean" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conditional vs Boolean<a class="anchor-link" href="#Conditional-vs-Boolean"> </a>
+</h3>
+<ul>
+<li>How could this conditional scenario be replaced with a boolean scenario?   </li>
+</ul>
+<p>IF (isHoliday)<br>
 {<br>
-    DISPLAY ("Great Job!")<br>
+    school⟵false<br>
 }<br>
-{<br>
 ELSE<br>
-}<br>
-    IF (diceRoll=3)</p>
+{<br>
+    IF(isWeekday)<br>
+    {<br>
+        school⟵true<br>
+    }<br>
+    ELSE<br>
+    {<br>
+        school⟵false<br>
+    }<br>
+}</p>
+<p><strong>What needs to be true and what needs to be false in order for you to go to school?</strong></p>
+<ul>
+<li>First conditional: If isHoliday is true, you do not need to go to school</li>
+<li>Second conditional: If isWeekday is true, you do need to go to school. However, if it is false, school also becomes false</li>
+</ul>
+<p><strong>Therefore, in pseudo code, this statement could be written as:</strong></p>
+<ul>
+<li>school⟵((NOT (isHoliday)) AND (isWeekday))</li>
+<li>Keep in mind that both of these statements yield the same results, and neither of them are incorrect</li>
+</ul>
+<p>gonna add another part</p>
 
 </div>
 </div>
