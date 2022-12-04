@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Title",
-            "content": "",
+            "content": "- toc: true - branch: master - badges: true - comments: true - author: Trent, Eli, Khalid, Samarth - categories: [fastpages, jupyter] .",
             "url": "https://trentcardall.github.io/period4yeung/2022/12/03/video2lesson.html",
             "relUrl": "/2022/12/03/video2lesson.html",
             "date": " • Dec 3, 2022"
