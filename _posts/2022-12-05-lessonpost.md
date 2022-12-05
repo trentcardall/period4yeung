@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-description: Commands in terminal and what they do
+description: All Videos
 categories: [markdown]
-title: Terminal Commands
+title: Unit 3 Sections 9 and 11
 ---
 
 ## 3.9 Video 1
