@@ -122,15 +122,15 @@ The algorithms below are to sum the odd numbers from 1 to 9 (1+3+5+7+9). Do they
 
 ### Create an Algorithm
 
-![photo]({{site.baseurl}}/images/example 1 triangle.png)
+<a href="https://trentcardall.github.io/period4yeung/images/example1triangle.png">
+    <img src="https://trentcardall.github.io/period4yeung/images/robotanswer.png">
+</a>
 
 - Create an algorithm to move the robot to the gray square for the grid of squares on the right.
 - The robot is represented by a triangle, which is initially facing towards the top of the grid.
 - The robot can move into a white or gray square but cannot move into a black region.
 
-**ANSWER:**
-![photo]({{site.baseurl}}/images/robotanswer.png)
-This code repeats itself until the process is complete
+**Answer is hidden so you guys don't cheat**
 
 - You might notice that certain parts would be repeated if you listed all the steps.
 - To more easily represent the algorithm, without showing every step, we could use iteration.
@@ -202,11 +202,11 @@ Determining a robat's path through a maze.
 ..
 
 How can we make this work??
-![]({{site.baseurl}}/images/incorrectexmaple.png)
+![]({{site.baseurl}}/images/incorrectexample.png)
 - Create a algorithm to move the robot to the grey square for the grid above
 - The robot is represented by a triangle
 - The robot can move into white and grey squares but cannot move into a black square
-![]({{site.baseurl}}/images/algorithmforvideo3lesson.png)
+![]({{site.baseurl}}/images/algorithmforvideo3.png)
 
 What is wrong with the grid and why wouldn't this algorithm work? What black squares would need to be added or removed to make this work?
 
