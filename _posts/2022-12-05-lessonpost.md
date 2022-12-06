@@ -122,8 +122,8 @@ The algorithms below are to sum the odd numbers from 1 to 9 (1+3+5+7+9). Do they
 
 ### Create an Algorithm
 
-<a href="https://trentcardall.github.io/period4yeung/images/example1triangle.png">
-    <img src="https://trentcardall.github.io/period4yeung/images/robotanswer.png">
+<a href="https://trentcardall.github.io/period4yeung/images/robotanswer.png">
+    <img src="https://trentcardall.github.io/period4yeung/images/example1triangle.png">
 </a>
 
 - Create an algorithm to move the robot to the gray square for the grid of squares on the right.
