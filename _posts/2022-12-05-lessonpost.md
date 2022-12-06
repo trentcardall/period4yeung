@@ -220,7 +220,8 @@ How can we make this work?
     - Explain the requirements necessary to complete a binary search.
 - The binary search algorithm starts at the middle of a sorted data set of numbers and eliminates half of the data; this process repeats until the desired value is found or all elements have been eliminated.
 - Data must be in sorted order to use the binary search algorithm 
-- A binary search is often more efficient than sequential/linear search when applied to sorted data. 
+- A binary search is often more efficient than sequential/linear search when applied to sorted data.
+
 ### Essential knowledge
 - Imagine you had to search for a number in a huge set. How would you do it? Would you pick randomly or would you put them in order first?
 
@@ -245,22 +246,22 @@ How can we make this work?
 ### Practice Problems
 1. Which is a plausable way to pattern your numbers for binary search. 
 
-a. [1,4,5,2,3]
-b. [24,22,23,28,30]
-c. [5,6,7,8,2]
-d. [1,2,3,4,5]
+    a. [1,4,5,2,3]
+    b. [24,22,23,28,30]
+    c. [5,6,7,8,2]
+    d. [1,2,3,4,5]
 
 2. How many checks would it take to print out 20 using sequential search 
 
-[1, 3, 4, 5, 7, 8, 10 ,20]
+    - [1, 3, 4, 5, 7, 8, 10 ,20]
 
 3. How many checks would it take to print out 30 using binary search 
 
-[1, 2, 3, 4, 6, 8, 9, 11, 30]
+    - [1, 2, 3, 4, 6, 8, 9, 11, 30]
 
 4. Using Binary Search how many checks would it take to find the word kiwi. 
 
-[Apple, Banana, Kiwi, Mango, Strawberry]
+    - [Apple, Banana, Kiwi, Mango, Strawberry]
 
 ## Hacks
 1. **Write this Boolean statement in the form of a conditional (if/else) statement:**
