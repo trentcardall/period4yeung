@@ -232,15 +232,18 @@ How can we make this work?
 - For a Sequential Search you compare each number to the number you are searching for
 - If it is not the number you are looking for you move on. (inefficient method)
 - You can also use this method for strings as well. 
-
+image(13)
 
 ### Binary Search
 - While using Binary Search you have to put the group of numbers from ascending or descending order
 - What the computer does it takes the lowest index and the highest index, adds them and then divides that value by 2. 
 - This gets the middle value and starts the search at the middle of the group. 
+![]({{site.baseurl}}/images/image(13).png)
 - Go to the respective index and pull the element, if this is not the desired number then go to the left and the right to and repeat the same process for the left and the right without including the index of the middle number. (efficient method)
+![]({{site.baseurl}}/images/image(14).png)
 - To put the efficiency of the binary search method into context if you have a list of 600 numbers the maximum amount of attempts it will take to get the number is 10. (1 level of tree is one search, the algorithm goes to the side of which the number is on the tree)
-- This method also applies to strings as well because only the indexes are getting compared. As long as the user can put it in an order (perferably alphabetical order) to tell the algorithm which side of the middle index to go to next then it is possible to use 
+![]({{site.baseurl}}/images/image(15).png)
+- This method also applies to strings as well because only the indexes are getting compared. As long as the user can put it in an order (preferably alphabetical order) to tell the algorithm which side of the middle index to go to next then it is possible to use 
 
 
 ### Practice Problems
@@ -262,6 +265,9 @@ How can we make this work?
 4. Using Binary Search how many checks would it take to find the word kiwi. 
 
     - [Apple, Banana, Kiwi, Mango, Strawberry]
+
+## Rap
+- Each group has 2 minutes to write a 3 line rap about what they learned. One volunteer will rap their group's lines and will receive a reward
 
 ## Hacks
 1. **Write this Boolean statement in the form of a conditional (if/else) statement:**
