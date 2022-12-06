@@ -213,6 +213,54 @@ How can we make this work?
 - How do we fix this?
 - [By allowing it to move left](https://trentcardall.github.io/period4yeung/images/2ndgridanswer.png)
 
+## 3.11
+### Learning Objective
+- For binary search algorithims
+    - Determine the number of iterations required to find a value in a data set. 
+    - Explain the requirements necessary to complete a binary search.
+- The binary search algorithm starts at the middle of a sorted data set of numbers and eliminates half of the data; this process repeats until the desired value is found or all elements have been eliminated.
+- Data must be in sorted order to use the binary search algorithm 
+- A binary search is often more efficient than sequential/linear search when applied to sorted data. 
+### Essential knowledge
+- Imagine you had to search for a number in a huge set. How would you do it? Would you pick randomly or would you put them in order first?
+
+### Sequential Search 
+- For the sake of this search lets line up the numbers
+- It doesn't have to be in order 
+- In this method you go down the line to find the number you are looking for
+- For a Sequential Search you compare each number to the number you are searching for
+- If it is not the number you are looking for you move on. (inefficient method)
+- You can also use this method for strings as well. 
+
+
+### Binary Search
+- While using Binary Search you have to put the group of numbers from ascending or descending order
+- What the computer does it takes the lowest index and the highest index, adds them and then divides that value by 2. 
+- This gets the middle value and starts the search at the middle of the group. 
+- Go to the respective index and pull the element, if this is not the desired number then go to the left and the right to and repeat the same process for the left and the right without including the index of the middle number. (efficient method)
+- To put the efficiency of the binary search method into context if you have a list of 600 numbers the maximum amount of attempts it will take to get the number is 10. (1 level of tree is one search, the algorithm goes to the side of which the number is on the tree)
+- This method also applies to strings as well because only the indexes are getting compared. As long as the user can put it in an order (perferably alphabetical order) to tell the algorithm which side of the middle index to go to next then it is possible to use 
+
+
+### Practice Problems
+1. Which is a plausable way to pattern your numbers for binary search. 
+
+a. [1,4,5,2,3]
+b. [24,22,23,28,30]
+c. [5,6,7,8,2]
+d. [1,2,3,4,5]
+
+2. How many checks would it take to print out 20 using sequential search 
+
+[1, 3, 4, 5, 7, 8, 10 ,20]
+
+3. How many checks would it take to print out 30 using binary search 
+
+[1, 2, 3, 4, 6, 8, 9, 11, 30]
+
+4. Using Binary Search how many checks would it take to find the word kiwi. 
+
+[Apple, Banana, Kiwi, Mango, Strawberry]
 
 ## Hacks
 1. **Write this Boolean statement in the form of a conditional (if/else) statement:**
