@@ -122,9 +122,12 @@ The algorithms below are to sum the odd numbers from 1 to 9 (1+3+5+7+9). Do they
 - Create an algorithm to move the robot to the gray square for the grid of squares on the right.
 - The robot is represented by a triangle, which is initially facing towards the top of the grid.
 - The robot can move into a white or gray square but cannot move into a black region.
+
+<display>
 <summary>Click for the answer!</summary>
     ![photo]({{site.baseurl}}/images/robot answer.png)
     The code just repeats until the goal is reached
+</display>
 
 - You might notice that certain parts would be repeated if you listed all the steps.
 - To more easily represent the algorithm, without showing every step, we could use iteration.
@@ -141,6 +144,8 @@ The algorithms below are to sum the odd numbers from 1 to 9 (1+3+5+7+9). Do they
     - MOVE_FORWARD ()
     - ROTATE_LEFT ()
 - }
+
+### Practice Questions
 
 Choose which algorithm that uses selection and/or iteration to determine the cost of one item in the store is correct
 
@@ -179,11 +184,43 @@ Suppose that the tax on all items is 10%
 - }
 - cost ← 0.40 * Cost
 
-## Algorithms Hacks
-1. Create an algorithm that uses selection and/or iteration that will represent one player's complete turn.
+
+## 3.9 Video 3
+
+### Essential Knowledge 
+- Knowledge of existing algorithms can help in constructing new ones. Some existing algorithms include:
+Determining the maximum or minimum value of two or more numbers.
+Computing the sum or average of two or more numbers.
+Identifying if an integer is or is not evenly divisble by another integer.
+Determining a robat's path through a maze.
+- Using existing correct algorithms as building blocks for constructing another algorithm has benefits such as reducing development time, reduce testing, and simplifying the idectification of errors.
+
+### Vocab 
+..
+
+How can we make this work??
+![]({{site.baseurl}}/images/incorrectexmaple.png)
+- Create a algorithm to move the robot to the grey square for the grid above
+- The robot is represented by a triangle
+- The robot can move into white and grey squares but cannot move into a black square
+![]({{site.baseurl}}/images/algorithmforvideo3lesson.png)
+
+What is wrong with the grid and why wouldn't this algorithm work? What black squares would need to be added or removed to make this work?
+
+## Hacks
+1. **Write this Boolean statement in the form of a conditional (if/else) statement:**
+stayInside⟵((isCold) OR (isRaining))
+
+2. **Create an algorithm that uses selection and/or iteration that will represent one player's complete turn.**
 
 During a turn, each player gets 4 attempts/chances to get the greatest number possible.
 
 during each attempt, the player will use a random number generator to select a random number from 1 to 10.
 
 After they have had 4 chances, their score is the greatest number they received from the random number generator, and their turn is over.
+
+3. **How can we change this algorithm to make this grid work?**
+![]({{site.baseurl}}/images/incorrectexample.png)
+![]({{site.baseurl}}/images/algorithforvideo3lesson.png)
+
+4. Something relating to Binary search (samarth)
