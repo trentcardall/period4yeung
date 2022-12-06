@@ -296,5 +296,4 @@ stayInside⟵((isCold) OR (isRaining))
 
 9. [64,36,16,11,9] Explain which number you are finding, how many check it would take, and make a binary search tree
 
-5. **Extra question if elected official gets answer wrong:**
-    - Create two different algorithms which yield the same results
+
