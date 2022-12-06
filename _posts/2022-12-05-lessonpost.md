@@ -124,10 +124,9 @@ The algorithms below are to sum the odd numbers from 1 to 9 (1+3+5+7+9). Do they
 - The robot is represented by a triangle, which is initially facing towards the top of the grid.
 - The robot can move into a white or gray square but cannot move into a black region.
 
-<display>
+<display closed>
 <summary>Click for the answer!</summary>
-    ![photo]({{site.baseurl}}/images/robot answer.png)
-    The code just repeats until the goal is reached
+    [The code just repeats until the goal is reached](![photo]({{site.baseurl}}/images/robot answer.png))
 </display>
 
 - You might notice that certain parts would be repeated if you listed all the steps.
