@@ -220,11 +220,11 @@ stayInside⟵((isCold) OR (isRaining))
 
 2. **Create an algorithm that uses selection and/or iteration that will represent one player's complete turn.**
 
-During a turn, each player gets 4 attempts/chances to get the greatest number possible.
+    - During a turn, each player gets 4 attempts/chances to get the greatest number possible.
 
-during each attempt, the player will use a random number generator to select a random number from 1 to 10.
+    - During each attempt, the player will use a random number generator to select a random number from 1 to 10.
 
-After they have had 4 chances, their score is the greatest number they received from the random number generator, and their turn is over.
+    - After they have had 4 chances, their score is the greatest number they received from the random number generator, and their turn is over.
 
 3. **Create an algorithm that will allow the arrow to reach the gray square:**
 ![]({{site.baseurl}}/images/examplevideo3.png)
