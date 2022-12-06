@@ -209,9 +209,9 @@ How can we make this work?
 ![]({{site.baseurl}}/images/incorrectexample.png)
 ![]({{site.baseurl}}/images/algorithmforvideo3.png)
 
-- What is wrong with this algorithm?
+- What is wrong with the algorithm above?
 - How do we fix this?
-![]({{site.baseurl}}/images/2ndgridanswer.png)
+- [By allowing it to move left](https://trentcardall.github.io/period4yeung/images/2ndgridanswer.png)
 
 
 ## Hacks
