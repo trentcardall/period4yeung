@@ -122,15 +122,15 @@ The algorithms below are to sum the odd numbers from 1 to 9 (1+3+5+7+9). Do they
 
 ### Create an Algorithm
 
-![photo]({{site.baseurl}}/images/example 1 triangle.png)
+<a href="https://trentcardall.github.io/period4yeung/images/robotanswer.png">
+    <img src="https://trentcardall.github.io/period4yeung/images/example1triangle.png">
+</a>
 
 - Create an algorithm to move the robot to the gray square for the grid of squares on the right.
 - The robot is represented by a triangle, which is initially facing towards the top of the grid.
 - The robot can move into a white or gray square but cannot move into a black region.
 
-**ANSWER:**
-![photo]({{site.baseurl}}/images/robotanswer.png)
-This code repeats itself until the process is complete
+**Answer is hidden so you guys don't cheat**
 
 - You might notice that certain parts would be repeated if you listed all the steps.
 - To more easily represent the algorithm, without showing every step, we could use iteration.
@@ -194,21 +194,80 @@ Suppose that the tax on all items is 10%
 - Knowledge of existing algorithms can help in constructing new ones. Some existing algorithms include:
 Determining the maximum or minimum value of two or more numbers.
 Computing the sum or average of two or more numbers.
-Identifying if an integer is or is not evenly divisble by another integer.
-Determining a robat's path through a maze.
-- Using existing correct algorithms as building blocks for constructing another algorithm has benefits such as reducing development time, reduce testing, and simplifying the idectification of errors.
+Identifying if an integer is or is not evenly divisible by another integer.
+Determining a robot's path through a maze.
+- Using existing correct algorithms as building blocks for constructing another algorithm has benefits such as reducing development time, reduce testing, and simplifying the identification of errors.
 
 ### Vocab 
-..
+- Algorithm: A process or set of rules to be followed in calculations or other problem solving operations, especially by a computer.
 
-How can we make this work??
-![]({{site.baseurl}}/images/incorrectexmaple.png)
+### Another Robot Example
+How can we make this work?
 - Create a algorithm to move the robot to the grey square for the grid above
 - The robot is represented by a triangle
 - The robot can move into white and grey squares but cannot move into a black square
-![]({{site.baseurl}}/images/algorithmforvideo3lesson.png)
+![]({{site.baseurl}}/images/incorrectexample.png)
+![]({{site.baseurl}}/images/algorithmforvideo3.png)
 
-What is wrong with the grid and why wouldn't this algorithm work? What black squares would need to be added or removed to make this work?
+- What is wrong with the algorithm above?
+- How do we fix this?
+- [By allowing it to move left](https://trentcardall.github.io/period4yeung/images/2ndgridanswer.png)
+
+## 3.11
+### Learning Objective
+- For binary search algorithims
+    - Determine the number of iterations required to find a value in a data set. 
+    - Explain the requirements necessary to complete a binary search.
+- The binary search algorithm starts at the middle of a sorted data set of numbers and eliminates half of the data; this process repeats until the desired value is found or all elements have been eliminated.
+- Data must be in sorted order to use the binary search algorithm 
+- A binary search is often more efficient than sequential/linear search when applied to sorted data.
+
+### Essential knowledge
+- Imagine you had to search for a number in a huge set. How would you do it? Would you pick randomly or would you put them in order first?
+
+### Sequential Search 
+- For the sake of this search lets line up the numbers
+- It doesn't have to be in order 
+- In this method you go down the line to find the number you are looking for
+- For a Sequential Search you compare each number to the number you are searching for
+- If it is not the number you are looking for you move on. (inefficient method)
+- You can also use this method for strings as well. 
+image(13)
+
+### Binary Search
+- While using Binary Search you have to put the group of numbers from ascending or descending order
+- What the computer does it takes the lowest index and the highest index, adds them and then divides that value by 2. 
+- This gets the middle value and starts the search at the middle of the group. 
+![]({{site.baseurl}}/images/image(13).png)
+- Go to the respective index and pull the element, if this is not the desired number then go to the left and the right to and repeat the same process for the left and the right without including the index of the middle number. (efficient method)
+![]({{site.baseurl}}/images/image(14).png)
+- To put the efficiency of the binary search method into context if you have a list of 600 numbers the maximum amount of attempts it will take to get the number is 10. (1 level of tree is one search, the algorithm goes to the side of which the number is on the tree)
+![]({{site.baseurl}}/images/image(15).png)
+- This method also applies to strings as well because only the indexes are getting compared. As long as the user can put it in an order (preferably alphabetical order) to tell the algorithm which side of the middle index to go to next then it is possible to use 
+
+
+### Practice Problems
+1. Which is a plausable way to pattern your numbers for binary search. 
+
+    a. [1,4,5,2,3]
+    b. [24,22,23,28,30]
+    c. [5,6,7,8,2]
+    d. [1,2,3,4,5]
+
+2. How many checks would it take to print out 20 using sequential search 
+
+    - [1, 3, 4, 5, 7, 8, 10 ,20]
+
+3. How many checks would it take to print out 30 using binary search 
+
+    - [1, 2, 3, 4, 6, 8, 9, 11, 30]
+
+4. Using Binary Search how many checks would it take to find the word kiwi. 
+
+    - [Apple, Banana, Kiwi, Mango, Strawberry]
+
+## Rap
+- Each group has 2 minutes to write a 3 line rap about what they learned. One volunteer will rap their group's lines and will receive a reward
 
 ## Hacks
 1. **Write this Boolean statement in the form of a conditional (if/else) statement:**
@@ -216,14 +275,16 @@ stayInside⟵((isCold) OR (isRaining))
 
 2. **Create an algorithm that uses selection and/or iteration that will represent one player's complete turn.**
 
-During a turn, each player gets 4 attempts/chances to get the greatest number possible.
+    - During a turn, each player gets 4 attempts/chances to get the greatest number possible.
 
-during each attempt, the player will use a random number generator to select a random number from 1 to 10.
+    - During each attempt, the player will use a random number generator to select a random number from 1 to 10.
 
-After they have had 4 chances, their score is the greatest number they received from the random number generator, and their turn is over.
+    - After they have had 4 chances, their score is the greatest number they received from the random number generator, and their turn is over.
 
-3. **How can we change this algorithm to make this grid work?**
-![]({{site.baseurl}}/images/incorrectexample.png)
-![]({{site.baseurl}}/images/algorithforvideo3lesson.png)
+3. **Create an algorithm that will allow the arrow to reach the gray square:**
+![]({{site.baseurl}}/images/examplevideo3.png)
 
 4. Something relating to Binary search (samarth)
+
+5. **Extra question if elected official gets answer wrong:**
+    - Create two different algorithms which yield the same results
