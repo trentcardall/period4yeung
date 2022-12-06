@@ -1,6 +1,7 @@
 ---
 toc: true
 layout: post
+comments: true
 description: All Videos
 categories: [markdown]
 title: Unit 3 Sections 9 and 11
