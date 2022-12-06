@@ -194,19 +194,24 @@ Suppose that the tax on all items is 10%
 - Knowledge of existing algorithms can help in constructing new ones. Some existing algorithms include:
 Determining the maximum or minimum value of two or more numbers.
 Computing the sum or average of two or more numbers.
-Identifying if an integer is or is not evenly divisble by another integer.
-Determining a robat's path through a maze.
-- Using existing correct algorithms as building blocks for constructing another algorithm has benefits such as reducing development time, reduce testing, and simplifying the idectification of errors.
+Identifying if an integer is or is not evenly divisible by another integer.
+Determining a robot's path through a maze.
+- Using existing correct algorithms as building blocks for constructing another algorithm has benefits such as reducing development time, reduce testing, and simplifying the identification of errors.
 
 ### Vocab 
 - Algorithm: A process or set of rules to be followed in calculations or other problem solving operations, especially by a computer.
 
-How can we make this work? What black squares would need to be added or removed to make this algorithm below work?
+### Another Robot Example
+How can we make this work?
 - Create a algorithm to move the robot to the grey square for the grid above
 - The robot is represented by a triangle
 - The robot can move into white and grey squares but cannot move into a black square
 ![]({{site.baseurl}}/images/incorrectexample.png)
 ![]({{site.baseurl}}/images/algorithmforvideo3.png)
+
+- What is wrong with this algorithm?
+- How do we fix this?
+![]({{site.baseurl}}/images/2ndgridanswer.png)
 
 
 ## Hacks
@@ -221,8 +226,10 @@ during each attempt, the player will use a random number generator to select a r
 
 After they have had 4 chances, their score is the greatest number they received from the random number generator, and their turn is over.
 
-3. **How can we change this algorithm to make this grid work?**
-![]({{site.baseurl}}/images/incorrectexample.png)
-![]({{site.baseurl}}/images/algorithforvideo3.png)
+3. **Create an algorithm that will allow the arrow to reach the gray square:**
+![]({{site.baseurl}}/images/examplevideo3.png)
 
 4. Something relating to Binary search (samarth)
+
+5. **Extra question if elected official gets answer wrong:**
+    - Create two different algorithms which yield the same results
