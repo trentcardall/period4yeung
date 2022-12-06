@@ -238,11 +238,11 @@ image(13)
 - While using Binary Search you have to put the group of numbers from ascending or descending order
 - What the computer does it takes the lowest index and the highest index, adds them and then divides that value by 2. 
 - This gets the middle value and starts the search at the middle of the group. 
-![]({{site.baseurl}}/images/image(13).png)
+![]({{site.baseurl}}/images/image (13).png)
 - Go to the respective index and pull the element, if this is not the desired number then go to the left and the right to and repeat the same process for the left and the right without including the index of the middle number. (efficient method)
-![]({{site.baseurl}}/images/image(14).png)
+![]({{site.baseurl}}/images/image (14).png)
 - To put the efficiency of the binary search method into context if you have a list of 600 numbers the maximum amount of attempts it will take to get the number is 10. (1 level of tree is one search, the algorithm goes to the side of which the number is on the tree)
-![]({{site.baseurl}}/images/image(15).png)
+![]({{site.baseurl}}/images/image (15).png)
 - This method also applies to strings as well because only the indexes are getting compared. As long as the user can put it in an order (preferably alphabetical order) to tell the algorithm which side of the middle index to go to next then it is possible to use 
 
 
@@ -284,7 +284,17 @@ stayInside⟵((isCold) OR (isRaining))
 3. **Create an algorithm that will allow the arrow to reach the gray square:**
 ![]({{site.baseurl}}/images/examplevideo3.png)
 
-4. Something relating to Binary search (samarth)
+4. Make a binary search tree of different the list [1,2,3,4,6,9,11,69]
+
+5. Explain thorughly how to find the number 69 in the list above (use key words)
+
+6. Make a diagram explaining how you found the list (not tree, include equation)
+
+7. Put this list of strings in a order that can be used for binary search ["store","Market","Walmart",Target","Ralphs"]
+
+8. Explain why Binary Search is more efficient than Sequential Search
+
+9. [64,36,16,11,9] Explain which number you are finding, how many check it would take, and make a binary search tree
 
 5. **Extra question if elected official gets answer wrong:**
     - Create two different algorithms which yield the same results
