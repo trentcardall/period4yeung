@@ -120,6 +120,10 @@ The algorithms below are to sum the odd numbers from 1 to 9 (1+3+5+7+9). Do they
 ( this could be also often called a loop ) 
 - Selection: is a decision or question. At some point in an algorithm there may need to be a question because the algorithm has reached a step where one or more options are available.
 
+### Create an Algorithm
+
+![photo]({{site.baseurl}}/images/example 1 triangle.png)
+
 - Create an algorithm to move the robot to the gray square for the grid of squares on the right.
 - The robot is represented by a triangle, which is initially facing towards the top of the grid.
 - The robot can move into a white or gray square but cannot move into a black region.
@@ -144,7 +148,7 @@ This code repeats itself until the process is complete
     - ROTATE_LEFT ()
 - }
 
-### Practice Questions
+### Practice Question
 
 Choose which algorithm that uses selection and/or iteration to determine the cost of one item in the store is correct
 
